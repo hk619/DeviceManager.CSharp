@@ -10,5 +10,10 @@ namespace AssetManagementConsole.Controllers
 {
     public class AssetDataController : ApiController
     {
+        public IEnumerable<AssetDataTable> Get()
+        {
+            return
+        }
+
     }
 }
